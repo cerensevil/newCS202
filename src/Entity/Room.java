@@ -9,7 +9,7 @@ public class Room {
     private String roomType;          // Room type description (may be redundant, you can use the Room_Type table directly)
     private double price;             // Price of the room
     private String availabilityStatus; // Availability status: Available, Occupied, Under Maintenance
-    private int bedCount;             // Number of beds in the room
+    private int bedCount;             // Number of beds in the room.
     private int maxOccupancy;         // Maximum number of people the room can accommodate
     private int roomSize;             // Size of the room in square feet or meters
     private String specialAmenities;  // Special amenities available in the room
