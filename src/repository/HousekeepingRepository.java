@@ -10,7 +10,7 @@ public class HousekeepingRepository {
     // INSERT
     final String INSERT_HOUSEKEEPER = "INSERT INTO Housekeeping (employeeId, cleaningArea,shift) VALUES (?, ?,?)";
 
-    // SELECT
+    // SELECT..
     final String SELECT_ALL_HOUSEKEEPERS = "SELECT * FROM Housekeeping";
     final String SELECT_HOUSEKEEPER_BY_ID = "SELECT * FROM Housekeeping WHERE employeeId = ?";
 
