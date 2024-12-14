@@ -83,7 +83,7 @@ public class RolesRepository {
         return null;
     }
 
-    // UPDATE
+    // UPDATE..
     public void updateRole(Roles role) throws SQLException {
         try (PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_ROLE)) {
             preparedStatement.setString(1, role.getRoleName());

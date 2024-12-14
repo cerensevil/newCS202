@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReceptionistRepository {
-    // INSERT
+    // INSERT..
     final String INSERT_RECEPTIONIST = "INSERT INTO Receptionist (employeeId, languagesSpoken,workShift) VALUES (?, ?,?)";
 
     // SELECT

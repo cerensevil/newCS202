@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HousekeepingRepository {
-    // INSERT
+    // INSERT..
     final String INSERT_HOUSEKEEPER = "INSERT INTO Housekeeping (employeeId, cleaningArea,shift) VALUES (?, ?,?)";
 
     // SELECT..

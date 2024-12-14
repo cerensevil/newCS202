@@ -10,7 +10,7 @@ public class RoomRepository {
     // CREATE
     final String INSERT_ROOM = "INSERT INTO Room (roomId, hotelId, roomNumber, roomTypeId,roomType, price, availabilityStatus) VALUES (?,?, ?, ?, ?, ?,?)";
 
-    // READ
+    // READ..
     final String SELECT_ALL_ROOMS = "SELECT * FROM Room";
     final String SELECT_ROOM_BY_ID = "SELECT * FROM Room WHERE roomId = ?";
     final String SELECT_AVAILABLE_ROOMS = "SELECT * FROM Room WHERE availabilityStatus = 'Available'";

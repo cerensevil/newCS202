@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 public class HotelRepository {
-    // CREATE
+    // CREATE..
     final String INSERT_HOTEL = "INSERT INTO Hotel (hotelId, hotelName, hotelAddress, hotelCity, phoneNumber, email) VALUES (?, ?, ?, ?, ?,?)";
 
     // READ

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PaymentsRepository {
-    // CREATE
+    // CREATE..
     final String INSERT_PAYMENT = "INSERT INTO Payments (paymentId, paymentStatus, amount, paymentDate, bookingId) VALUES (?, ?, ?, ?, ?)";
 
     // READ
